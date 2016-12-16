@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">教授助手 - 教授端</string>
+    <string name="title_activity_student_main">StudentMainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">設定</string>
+
+    <string name="input_student">請輸入學生學號、X軸與Y軸</string>
+    <string name="input_student_key_in">模擬學生位置</string>
+    <string name="modify">修改</string>
+    <string name="delete">刪除</string>
+
+    <string name="lunch_time">教授很不爽鍵</string>
+    <string name="want_to_eat">確定要發送推播訊息給學生們嗎？</string>
+    <string name="wait_a_minute">發送</string>
+    <string name="i_am_hungry">已發送推播訊息至學生端</string>
+    <string name="not_hungry">取消</string>
+</resources>

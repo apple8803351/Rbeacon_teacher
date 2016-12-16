@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_r">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.55">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonRand"
+                android:layout_weight="1.4"
+                android:background="@color/e8e8e8" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingRight="10dp">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:text="0"
+                        android:ems="10"
+                        android:id="@+id/editTextRandArea1"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:textColor="#434343"
+                        android:textColorLink="?attr/actionModeSplitBackground"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:text="～"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView"
+                        android:layout_weight="0.5"
+                        android:textColor="#434343"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:textColorLink="?android:attr/colorForegroundInverse"
+                        android:paddingTop="10dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="100"
+                        android:ems="10"
+                        android:id="@+id/editTextRandArea2"
+                        android:layout_weight="1"
+                        android:textColor="#434343"
+                        android:inputType="number"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.4" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:inputType="number"
+                    android:text="1"
+                    android:id="@+id/editTextRandCount"
+                    android:layout_weight="1"
+                    android:textColor="#434343"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:paddingBottom="32dp"
+            android:paddingTop="5dp">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewRandAns"
+                android:layout_weight="16"
+                android:singleLine="false"
+                android:paddingLeft="3dp"
+                android:textSize="24sp"
+                android:textColor="#434343" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

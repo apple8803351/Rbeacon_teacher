@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:elevation="0dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageSLFace"
+            android:layout_weight="2"
+            android:scaleType="centerInside"
+            android:background="#434343" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:text="到課"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewSLNow"
+                android:layout_weight="1"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#434343"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/text_line"
+                android:id="@+id/imageView2"
+                android:layout_weight="0.3" />
+
+            <TextView
+                android:text="B10256029"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewSLNo"
+                android:layout_weight="1"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:textColor="#434343"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/text_line"
+                android:id="@+id/imageView3"
+                android:layout_weight="0.3" />
+
+            <TextView
+                android:text="王昱閔"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewSLName"
+                android:layout_weight="1"
+                android:gravity="bottom|center_vertical|center_horizontal"
+                android:textColor="#434343"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/text_line"
+                android:id="@+id/imageView4"
+                android:layout_weight="0.3" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

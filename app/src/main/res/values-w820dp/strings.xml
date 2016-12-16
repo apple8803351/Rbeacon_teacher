@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">教授助手</string>
+    <string name="title_activity_student_main">StudentMainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">設定</string>
+</resources>

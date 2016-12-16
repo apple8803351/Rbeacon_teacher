@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+activity_beacon.xml - 測試搜尋ibeacon及定位介面
+activity_student_main.xml - 學生端 側欄
+app_bar_student.xml - 學生端 頂端工具列
+content_student_main.xml - 學生端 主畫面
+list_item.xml - ibeacon列表
+main.xml - 測試用頁面
+
+BeaconActivity.class - 測試搜尋ibeacon及定位介面
+BeaconData.class - iBeacon資料物件
+MyAdapter - 自訂列表，用於ListView
+StudentMainActivity - 學生主畫面
+x3point - 三點定位計算用物件
+-->
+
+<!--
+- 16.07.19
+    完成基礎架構
+
+- 16.08.26
+    可搜尋到 beacon 資料並顯示
+
+- 16.09.25
+    新增 BeaconData 用於 包裝beacon回傳之資料
+    新增 MyAdapter 用於 將資料處理並顯示於ListView
+    新增 list_item 用於 同步顯示多筆beacon資料
+
+- 16.10.17
+    新增 get3pointsX、 get3pointsY 方法，顯示很飄的三點定位
+
+- 16.10.23
+    刪除 get3pointX、  get3pointsY 方法，將學長的三點定位程式整合成 x3point 物件，並自動計算
+
+- 16.10.30
+    新增學生端主畫面
+    新增學生端側欄
+
+- 16.11.1
+    新增數值過濾，不再顯示NaN
+
+- 16.11.3
+    新增教師端專案 Rbeacon_Teacher
+-->
+<resources></resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_classdata"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="課堂資料" />
+        <item
+            android:id="@+id/nav_classpeople"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="修課名單" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_menu_revert"
+            android:title="登出" />
+    </group>
+
+    <item android:title="快樂夥伴工作室">
+        <menu>
+            <item
+                android:id="@+id/nav_us"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="關於我們" />
+        </menu>
+    </item>
+
+    <item android:title="開發人員工具">
+        <menu>
+            <item
+                android:id="@+id/nav_addStudent"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="手動模擬學生座標" />
+
+            <item
+                android:id="@+id/nav_demoX"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Demo X 模式" />
+        </menu>
+    </item>
+</menu>

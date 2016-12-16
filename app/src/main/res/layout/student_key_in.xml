@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/dialog_frame"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:text="學號："
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edittextStudentKeyInID"
+            android:layout_weight="1"
+            android:text="B10256029"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:elevation="0dp"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="X軸（0～6）："
+            android:id="@+id/textView3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edittextStudentKeyInX"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Y軸（0～6）："
+            android:id="@+id/textView4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/edittextStudentKeyInY"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.user.rbeacon_teacher.StudentMainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@android:drawable/menuitem_background">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#434343"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:layout_width="match_parent"
+            app:title="教授助手" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#e8e8e8">
+
+            <ImageButton
+                android:layout_width="0dp"
+                app:srcCompat="@drawable/button_c"
+                android:id="@+id/imageButtonC"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:background="@android:drawable/menuitem_background"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/button_class_b"
+                android:id="@+id/imageButtonClass"
+                android:layout_weight="1"
+                android:background="@android:drawable/menuitem_background"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/button_random_b"
+                android:id="@+id/imageButtonRandom"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:background="@android:drawable/menuitem_background" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/button_note_b"
+                android:id="@+id/imageButtonN"
+                android:layout_weight="1"
+                android:background="@android:drawable/list_selector_background"
+                android:scaleType="centerInside" />
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_student_main"
+        android:visibility="visible"
+        android:id="@+id/main_include" />
+
+    <include layout="@layout/content_class"
+        android:visibility="invisible"
+        android:id="@+id/class_include" />
+
+    <include layout="@layout/content_rand"
+        android:visibility="invisible"
+        android:id="@+id/rand_include" />
+
+    <include layout="@layout/content_note"
+        android:visibility="invisible"
+        android:id="@+id/note_include" />
+
+    <include layout="@layout/content_student_data"
+        android:visibility="invisible"
+        android:id="@+id/data_include" />
+
+    <include layout="@layout/content_class_table"
+        android:visibility="invisible"
+        android:id="@+id/class_table_include" />
+</android.support.design.widget.CoordinatorLayout>
